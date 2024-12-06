@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+   }
+   
+   header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: royalblue;
+    color:white;
+   }
+   
+   h1{
+    padding:.3em;
+   }
+   
+   nav{
+    margin-top: .9em;
+   }
+   
+   a{
+    color:white;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: .5em;
+   }
+   
+   .hero{
+    display: flex;
+    height: 100%;
+   }
+   
+   #hero-text{
+    background-image: url("star.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:70vh;
+    overflow: hidden;
+   }
+   
+   #hero-text{
+    position:absolute;
+    color:royalblue;
+    font-size:4em;
+    margin: 0 auto;
+    text-align:center;
+    padding-top: 3em;
+   }
+   
+   .grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin:1em 1em 1em;
+   }
+   
+   #star1, #star2, #energy, #temp, #other, #vid3, #why{
+    float:left;
+    width: 35vw;
+   }
+   
+   #first, #second, .energy, .temp, .other, #earth1, #earth2, #earth3, .sum3{
+    padding: 2em;
+   }
+   
+   h2{
+    padding-top: 1em;
+   }
+   
+   .cam, .hol, .nat, .mic{
+    margin:1em;
+   }
+   
+   #pic-cam, #pic-hol, #pic-nat, #pic-mic{
+    width: 10vw;
+    float:left;
+    margin-right: 1em;
+   }
+   
+   .main4{
+    margin: 1em;
+    position: relative;
+   }
+   
+   .formation, .masses, .life-cycle, .endoflife{
+    margin-bottom:1em;
+    overflow:hidden;
+   }
+   
+   .main4 > img{
+    width:50vw;
+    position: absolute;
+    left:25%;
+    padding-top: 1em;
+   }
+   
+   .videos{
+    margin: 0 auto;
+    text-align:center;
+   }
+   
+   div button{
+    padding:1em;
+    font-size: medium;
+    background-color: lightblue;
+   }
+   
+   button:hover{
+    background-color:purple;
+   }
